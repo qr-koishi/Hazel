@@ -1,4 +1,7 @@
 #pragma once
+
+#include "Application.h"
+
 #ifdef HZ_PLATFORM_WINDOWS
 
 
