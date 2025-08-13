@@ -1355,6 +1355,7 @@
     </ClInclude>
     <ClInclude Include="src\Hazel\Redener\GraphicsContext.h" />
     <ClInclude Include="src\Platform\OpenGL\OpenGLContext.h" />
+    <ClInclude Include="src\Hazel\Redener\Shader.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Hazel\Application.cpp">
@@ -1385,5 +1386,6 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="src\Platform\OpenGL\OpenGLContext.cpp" />
+    <ClCompile Include="src\Hazel\Redener\Shader.cpp" />
   </ItemGroup>
 </Project>
