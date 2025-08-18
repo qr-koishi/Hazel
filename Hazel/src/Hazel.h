@@ -6,11 +6,23 @@
 #include "Hazel/Application.h"
 #include "Hazel/Layer.h"
 #include "Hazel/Log.h"
-#include "Hazel/ImGui/ImGuiLayer.h"
+
 #include "Hazel//Input.h"
-#include "Hazel/MouseButtonCodes.h"
 #include "Hazel/KeyCodes.h"
+#include "Hazel/MouseButtonCodes.h"
 
-//Entry Point
+#include "Hazel/ImGui/ImGuiLayer.h"
+// --Renderer--------------------------
+#include "Hazel/Redener/Renderer.h"
+#include "Hazel/Redener/RenderCommand.h"
+
+#include "Hazel/Redener/Shader.h"
+#include "Hazel/Redener/Buffer.h"
+#include "Hazel/Redener/VertexArray.h"
+
+#include "Hazel/Redener/OrthoGraphicCamera.h"
+// ------------------------------------
+
+// --Entry Point-----------------------
 #include "Hazel/EntryPoint.h"
-
+// ------------------------------------

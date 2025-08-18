@@ -1361,6 +1361,10 @@
     <ClInclude Include="src\Hazel\Redener\Renderer.h" />
     <ClInclude Include="src\Hazel\Redener\VertexArray.h" />
     <ClInclude Include="src\Platform\OpenGL\OpenGLVertexArray.h" />
+    <ClInclude Include="src\Hazel\Redener\RendererAPI.h" />
+    <ClInclude Include="src\Hazel\Redener\RenderCommand.h" />
+    <ClInclude Include="src\Platform\OpenGL\OpenGLRendererAPI.h" />
+    <ClInclude Include="src\Hazel\Redener\OrthoGraphicCamera.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Hazel\Application.cpp">
@@ -1397,5 +1401,9 @@
     <ClCompile Include="src\Hazel\Redener\Renderer.cpp" />
     <ClCompile Include="src\Hazel\Redener\VertexArray.cpp" />
     <ClCompile Include="src\Platform\OpenGL\OpenGLVertexArray.cpp" />
+    <ClCompile Include="src\Hazel\Redener\RendererAPI.cpp" />
+    <ClCompile Include="src\Hazel\Redener\RenderCommand.cpp" />
+    <ClCompile Include="src\Platform\OpenGL\OpenGLRendererAPI.cpp" />
+    <ClCompile Include="src\Hazel\Redener\OrthoGraphicCamera.cpp" />
   </ItemGroup>
 </Project>

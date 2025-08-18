@@ -6,11 +6,8 @@
 #include "Hazel/LayerStack.h"
 #include "Hazel/Events/Event.h"
 #include "Hazel/Events/ApplicationEvent.h"
-#include "Hazel/ImGui/ImGuiLayer.h"
 
-#include "Hazel/Redener/Shader.h"
-#include "Hazel/Redener/Buffer.h"
-#include "Hazel/Redener/VertexArray.h"
+#include "Hazel/ImGui/ImGuiLayer.h"
 
 namespace Hazel
 {
@@ -39,12 +36,6 @@ namespace Hazel
 		ImGuiLayer* m_ImGuiLayer;
 		bool m_Running = true;
 		LayerStack m_LayerStack;
-
-		std::shared_ptr<VertexArray> m_VertexArray;
-		std::shared_ptr<Shader>m_Shader;
-
-		std::shared_ptr<VertexArray> m_SquareVA;
-		std::shared_ptr<Shader>m_BlueShader;
 	private:
 		static Application* Application::s_Instance;
 	};
