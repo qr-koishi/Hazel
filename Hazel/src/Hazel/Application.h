@@ -7,6 +7,8 @@
 #include "Hazel/Events/Event.h"
 #include "Hazel/Events/ApplicationEvent.h"
 
+#include "Hazel/Core/TimeStep.h"
+
 #include "Hazel/ImGui/ImGuiLayer.h"
 
 namespace Hazel
@@ -31,11 +33,12 @@ namespace Hazel
 		inline Window& GetWindow(){ return *m_Window; }
 	private:
 		bool OnWindowClosed(WindowCloseEvent& e);
-		
+	private:
 		std::unique_ptr<Window> m_Window;
 		ImGuiLayer* m_ImGuiLayer;
 		bool m_Running = true;
 		LayerStack m_LayerStack;
+		float m_LastFrameTime = 0.0f;
 	private:
 		static Application* Application::s_Instance;
 	};
