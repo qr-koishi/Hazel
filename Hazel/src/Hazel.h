@@ -19,6 +19,7 @@
 #include "Hazel/Redener/RenderCommand.h"
 
 #include "Hazel/Redener/Shader.h"
+#include "Hazel/Redener/Texture.h"
 #include "Hazel/Redener/Buffer.h"
 #include "Hazel/Redener/VertexArray.h"
 

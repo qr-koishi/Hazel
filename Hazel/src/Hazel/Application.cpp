@@ -15,9 +15,6 @@ namespace Hazel
 
 	Application* Application::s_Instance = nullptr;
 
-	Application::~Application()
-	{
-	}
 
 	Application::Application()
 	{
@@ -33,13 +30,11 @@ namespace Hazel
 	void Application::PushLayer(Layer* layer)
 	{
 		m_LayerStack.PushLayer(layer);
-		layer->OnAttach();
 	}
 
 	void Application::PushOverlay(Layer* layer)
 	{
 		m_LayerStack.PushOverlay(layer);
-		layer->OnAttach();
 	}
 
 	void Application::OnEvent(Event& e)
