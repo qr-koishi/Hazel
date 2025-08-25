@@ -15,15 +15,15 @@
 
 #include "Hazel/ImGui/ImGuiLayer.h"
 // --Renderer--------------------------
-#include "Hazel/Redener/Renderer.h"
-#include "Hazel/Redener/RenderCommand.h"
+#include "Hazel/Renderer/Renderer.h"
+#include "Hazel/Renderer/RenderCommand.h"
 
-#include "Hazel/Redener/Shader.h"
-#include "Hazel/Redener/Texture.h"
-#include "Hazel/Redener/Buffer.h"
-#include "Hazel/Redener/VertexArray.h"
+#include "Hazel/Renderer/Shader.h"
+#include "Hazel/Renderer/Texture.h"
+#include "Hazel/Renderer/Buffer.h"
+#include "Hazel/Renderer/VertexArray.h"
 
-#include "Hazel/Redener/OrthoGraphicCamera.h"
+#include "Hazel/Renderer/OrthoGraphicCamera.h"
 // ------------------------------------
 
 // --Entry Point-----------------------

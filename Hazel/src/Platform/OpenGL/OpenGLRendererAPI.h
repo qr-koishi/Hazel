@@ -1,5 +1,5 @@
 #pragma once
-#include "Hazel/Redener/RendererAPI.h"
+#include "Hazel/Renderer/RendererAPI.h"
 
 namespace Hazel
 {
